@@ -12,3 +12,7 @@ def about():
 @app.get("/contact")
 def contact():
     return {"Name":"Hashir Shahid", "Number":"0300-xxxxx", "Age":18, "Degree":"BS Computer Science"}
+
+@app.get("/services")
+def services():
+    return {"Services":['WebDevelopment',"Software Development","ChatBot Development","Social Media Marketing"]}
